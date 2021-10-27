@@ -2,8 +2,10 @@
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import AuthProvider from './contexts/AuthProvider';
+import AddService from './Pages/AddService/AddService';
 import Home from './Pages/Home/Home/Home';
 import NotFound from './Pages/Home/NotFound/NotFound';
+import ManageServices from './Pages/MangeServices/ManageServices';
 import PrivateRoute from './Pages/Register/SignIn/PrivateRoute/PrivateRoute';
 import SignIn from './Pages/Register/SignIn/SignIn';
 import Servicing from './Pages/Servicing/Servicing/Servicing';
@@ -33,7 +35,15 @@ function App() {
               <Servicing />
             </PrivateRoute>
 
-            <Route path="*">
+            <Route path="/addService">
+              <AddService />
+            </Route>
+
+            <Route path="/manageService">
+              <ManageServices />
+            </Route>
+
+            <Route exact path="*">
               <NotFound />
             </Route>
 

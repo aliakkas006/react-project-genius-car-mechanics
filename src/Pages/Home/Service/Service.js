@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import './Service.css'
 
 const Service = ({ service }) => {
-    const { id, name, description, price, time, img } = service;
+    const { _id, name, description, price, time, img } = service;
     
     return (
         <>
@@ -18,7 +18,7 @@ const Service = ({ service }) => {
                         </Card.Text>
                         <h5>Duration: {time} </h5>
                         <h4 className="text-warning">Price: {price} </h4>
-                        <Link to={`/servicing/${id}`}>
+                        <Link to={`/servicing/${_id}`}>
                             <Button>Book {name} now!</Button>
                         </Link>
                     </Card.Body>

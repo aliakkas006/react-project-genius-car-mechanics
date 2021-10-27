@@ -19,7 +19,7 @@
 
     {
         "id": 3,
-        "name": "repair car",
+        "name": "Repair Car",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
         "price": 4000,
         "time": 3,
@@ -37,7 +37,7 @@
 
     {
         "id": 5,
-        "name": "car handling",
+        "name": "Car Handling",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
         "price": 3000,
         "time": 3,
@@ -46,7 +46,7 @@
 
     {
         "id": 6,
-        "name": "car engine service",
+        "name": "Car Engine Service",
         "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta laboriosam doloremque suscipit blanditiis voluptatum iusto illo a pariatur. Ad facilis aliquid error iure quam nam consectetur voluptates nobis minus qui.",
         "price": 5000,
         "time": 5,
